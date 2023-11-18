@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>851</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FractalWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>851</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="mainPage">
+       <property name="font">
+        <font>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Main page</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="lab1">
+       <property name="text">
+        <string>Lab 1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="lab2">
+       <property name="text">
+        <string>Lab 2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="lab3">
+       <property name="text">
+        <string>Lab 3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_7">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="lectures">
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Lectures</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="about">
+       <property name="font">
+        <font>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>About</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Lectures</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>831</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>831</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAsNeeded</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>812</width>
+       <height>1128</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Fractals</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Fractals are complex geometric shapes that exhibit self-similarity at different scales. They are generated through iterative mathematical processes, resulting in intricate patterns and structures. The term &quot;fractal&quot; was coined by mathematician Benoît B. Mandelbrot in 1975. Fractals can be found in various natural phenomena, such as clouds, mountains, and coastlines, as well as in computer-generated images. Mandelbrot set is one of the most famous fractals, created by iterating a simple mathematical formula. It produces intricate and infinitely detailed patterns, regardless of the level of magnification. Fractals have applications in diverse fields, including mathematics, physics, computer graphics, and art. They are also used to model and understand complex systems in nature, finance, and science. The beauty of fractals lies in their ability to represent complexity through simple rules, making them a fascinating subject of study and a source of inspiration in both scientific and artistic endeavors.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Color Schemes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Color schemes are essential in visual design, providing a systematic way to organize and represent colors. Several color models and schemes are commonly used, each with its unique approach to defining and organizing colors. Here are brief descriptions of some prominent color schemes:
+
+RGB (Red, Green, Blue): In the RGB color model, colors are created by combining different intensities of red, green, and blue light. It is widely used in electronic displays, such as monitors and screens.
+
+CMYK (Cyan, Magenta, Yellow, Black): CMYK is a subtractive color model used in color printing. It represents colors by subtracting varying percentages of cyan, magenta, yellow, and black ink. This model is essential in the printing industry.
+
+HSL (Hue, Saturation, Lightness): HSL represents colors in terms of their hue (the type of color), saturation (intensity or vividness), and lightness (brightness or darkness). It is often used in graphic design and web development.
+
+HSV (Hue, Saturation, Value): Similar to HSL, the HSV model represents colors using hue, saturation, and value. The key difference is that HSV uses value instead of lightness, and it is often preferred in computer graphics and image editing.
+
+Hexadecimal Color Code: Commonly used in web design, the hexadecimal color code represents RGB values using a base-16 system. It is expressed as a six-digit code preceded by a hash symbol (#), where each pair of digits represents the intensity of red, green, and blue, respectively.
+
+These color schemes provide a standardized way to communicate and work with colors across various platforms and industries, ensuring consistency and accuracy in visual representations. Designers and developers often choose color schemes based on the specific requirements of a project and the intended emotional or visual impact.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Moving images</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Affine transformations are mathematical techniques used to manipulate and transform images, including moving and distorting them. These transformations preserve parallel lines, ratios of distances, and the overall shape of objects. In the context of moving images, affine transformations can be applied to achieve various visual effects. Here are some key aspects:
+
+Translation: Affine transformations can be used to shift an image horizontally or vertically, effectively moving it across the screen. This is achieved by modifying the coordinates of each pixel in the image.
+
+Rotation: Affine transformations enable the rotation of images around a specified point. This can be used to create dynamic effects, such as spinning or rotating objects within a scene.
+
+Scaling: Images can be resized using affine transformations, either by enlarging or reducing them. Scaling is particularly useful for creating zoom-in or zoom-out effects in moving images.
+
+Shearing: Affine transformations can introduce shearing, a distortion that tilts the image along one axis while keeping the other axis unchanged. This can be applied to create interesting visual effects or simulate perspective changes.
+
+Combining Transformations: Multiple affine transformations can be combined to create more complex movements and distortions. For example, a translation followed by a rotation can simulate an object moving along a curved path.
+
+Affine transformations play a crucial role in computer graphics, animation, and video processing. They provide a versatile set of tools for manipulating visual elements, allowing designers and animators to create dynamic and engaging moving images. These transformations are commonly used in software applications and programming environments that deal with graphics and multimedia.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>851</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

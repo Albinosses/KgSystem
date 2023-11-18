@@ -43,7 +43,7 @@ def build_cut_fractal(order):
 
 def save_fractal_image(screen):
     ts = screen.getcanvas()
-    ts.postscript(file="fractal.ps", colormode='color')
+    ts.postscript(file="../fractal.ps", colormode='color')
     turtle.clearscreen()
-    im = Image.open("fractal.ps")
+    im = Image.open("../fractal.ps")
     im.save("fractal.png")

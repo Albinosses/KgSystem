@@ -42,5 +42,4 @@ def build_fractal_sin_z_cos_z(eps, iterations):
 def save_fractal(image, cmap):
     plt.clf()
     plt.imshow(image, extent=(x_min, x_max, y_min, y_max), cmap=cmap, origin='lower')
-    plt.colorbar()
     plt.savefig("fractal.png", format="png")
